@@ -1,0 +1,316 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(208, 11%, 55%);
+}
+@keyframes blink {
+    0% {
+        color: hsl(208, 11%, 55%);
+    }
+    20% {
+        color: red;
+    }
+    40% {
+        color: yellowgreen;
+    }
+    60% {
+        color: violet;
+    }
+    80% {
+        color: aqua;
+    }
+    100% {
+        color: hsl(208, 11%, 55%);
+    }
+}
+@keyframes B {
+    0% {
+        color: black;
+    }
+    20% {
+        color: red;
+    }
+    40% {
+        color: yellowgreen;
+    }
+    60% {
+        color: violet;
+    }
+    80% {
+        color: aqua;
+    }
+    100% {
+        color: black;
+    }
+}
+.transition {
+    color: black;
+    transition: Width 6s, height 6s;
+    animation-name: B;
+    animation-duration: 3s;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+}
+.transition:hover {
+    width: 100%;
+    height: 20%;
+    background-color: hsl(192, 100%, 9%);
+    border-radius: 10px;
+    padding: 4px;
+}
+.trans {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    transition: Width 6s, height 6s;
+    animation-name: B;
+    animation-duration: 3s;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+}
+.trans:hover {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(192, 100%, 9%);
+    border-radius: 10px;
+}
+#top {
+    width: 100%;
+    background-image: url('bg-hero-desktop.svg');
+    background-color: hsl(193, 100%, 96%);
+    display: flex;
+    flex-direction: column;
+}
+#header {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 15px;
+    display: flex;
+}
+#Logo {
+    width: 50%;
+}
+.svg1 {
+    width: 100px;
+    height: 17px;
+}
+.svg2 {
+    width: 180px;
+    height: 30px;
+}
+#hButton {
+    width: 30%;
+    margin-left: 10%;
+}
+#H {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 2em;
+    background-color: white;
+    animation-name: blink;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+#middle {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#mText {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.text {
+    margin-bottom: 1em;
+}
+#mButton {
+    width: 20em;
+    padding: 1.2em;
+    border: none;
+    border-radius: 2em;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    margin-top: 2em;
+    animation-name: blink;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+#image {
+    width: 60%;
+}
+.mockup {
+    width: 140%;
+    margin-top: 2em;
+    margin-left: 15%;
+}
+#page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 4em;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 35em;
+    border-block-style: outset;
+    border-block-width: 5px;
+    margin-bottom: 2em;
+    border-radius: 2em;
+}
+.G1 {
+    width: 100%;
+    position: relative;
+    top: 60%;
+    text-align: center;
+}
+.G1 h2 {
+    margin-bottom: px;
+}
+.G2 {
+    width: 100%;
+    position: relative;
+    bottom: 25%;
+}
+.G3 {
+    width: 100%;
+}
+.grow {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.grow1 {
+    width: 100%;
+    margin-top: 10%;
+}
+.F1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 5em;
+}
+.F1 h2 {
+    margin-bottom: 15px;
+}
+#footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#boxA {
+    border-radius: 2em;
+    border-block-style: outset;
+    border-block-width: 5px;
+    width: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    padding: 2em;
+    background-color: white;
+    position: relative;
+    top: 80px;
+}
+#boxA button {
+    width: 80%;
+    padding: 1.2em;
+    border: none;
+    border-radius: 2em;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    margin-top: 2em;
+}
+#boxB {
+    background-color: hsl(192, 100%, 9%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: hsl(208, 11%, 55%);
+}
+#B1 {
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 10em;
+}
+#B1 svg {
+    width: 100;
+    height: 15;
+}
+#B2 {
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+}
+#flex1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+#flex1 div {
+    margin-bottom: 1em;
+}
+#flex2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#flex3 {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.nav {
+    text-decoration: none;
+    margin-bottom: 2em;
+    color: white;
+}
+.anchor {
+    margin-bottom: 2em;
+}
+.flex3 {
+    margin-top: 10%;
+    margin-bottom: 15%;
+    text-align: center;
+}
+.fa-facebook-f {
+    color: white;
+    border-radius: 60%;
+    border: 1px solid white;
+    padding: 8px;
+    size: 3em;
+    margin-right: 8px;
+    background-color: ;
+}
+.fa-twitter {
+    color: white;
+    border-radius: 60%;
+    border: 1px solid white;
+    padding: 8px;
+    size: 3em;
+    margin-right: 8px;
+    background-color: ;
+}
+.fa-instagram {
+    color: white;
+    border-radius: 60%;
+    border: 1px solid white;
+    padding: 8px;
+    size: 3em;
+    background-color: ;
+}
